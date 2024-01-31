@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(17, 254, 131);
+    }
+    .red{
+        color: red;
+    }
+    .blue{
+        color: blue;
+    }
+    input{
+        background-color: blanchedalmond;
+    }
+    #banner{
+        background-color: aquamarine;
+    }
+    div ul li label span{
+        font-size: 30px;
+    }
+</style>
+<body>
+    <form action="/test">
+        <div>
+            <label for="text">Введите <span class="red">Email</span> : </label>
+            <input type="text" name="text" id="123" placeholder="123@email.com">
+        </div>
+        <br>
+        <div>
+            <label for="password">Введите <span class="blue">Пароль</span>: </label>
+            <input type="password" name="password" id="2024" placeholder="1234........">
+        </div>
+        <br>
+        <div>
+            <ul>
+                <li>
+                    <label for="2009">Нажмите на кнопку если вы человек</label>
+                    <input type="checkbox" name="checkbox" id="2009">
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <ul>
+                <li>
+            <label for="2008"> Нажмите на кнопку если вам есть 18</label>
+            <input type="checkbox" name="checkbox" id="2008">
+            </li>
+        </ul>
+        </div>
+        <br>
+        <div>
+            <ul>
+                <li>
+            <label for="2007"><span>Нажмите на кнопку если вам нет 18</span></label>
+            <input type="checkbox" name="checkbox" id="2007">
+            </li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <label for="text">Ваш никнейм : </label>
+            <input type="text" name="text" id="10" placeholder="empty">
+        </div>
+        <br>
+        <div>
+            <button type="submit" id="banner">Отправить</button>
+        </div>
+    </form>
+</body>
+</html>
